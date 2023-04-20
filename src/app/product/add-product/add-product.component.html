@@ -1,0 +1,17 @@
+<p>Add New Product</p>
+<div>
+    <div>
+        <label for="txtTitle">Title:</label>
+        <input id="txtTitle" [(ngModel)]="productAddForm.title" type="text">
+    </div>
+    <div>
+        <label for="txtType">Type:</label>
+        <input id="txtType" [(ngModel)]="productAddForm.type" type="text">
+    </div>
+    <div>
+        <label for="txtCost">Cost:</label>
+        <input id="txtCost" [(ngModel)]="productAddForm.cost" type="number">
+    </div>
+    <button type="button" (click)="saveAsProduct()">createProduct</button>
+
+</div>

@@ -1,0 +1,22 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "title": "Britannia",
+      "type": "Cookie",
+      "cost": 1544
+    },
+    {
+      "id": 2,
+      "title": "sss",
+      "type": "ss",
+      "cost": 23
+    },
+    {
+      "id": 3,
+      "title": "ddd",
+      "type": "qqq",
+      "cost": 12
+    }
+  ]
+}

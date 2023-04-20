@@ -1,0 +1,9 @@
+<!-- <p>product-group works!</p> -->
+<button type="butt" (click)="addAsProduct('add')">Add Product</button>
+<div *ngFor="let product of allProduct$ |async">
+    <p>Title: {{product.title}}</p>
+    <p>Type: {{product.type}}</p>
+    <p>Cost: {{product.cost}}</p>
+    <button type="button" [routerLink]="['/edit',product.id]">Edit Product</button>
+    +++++++++++++++++++++++++++++++++++
+</div>
